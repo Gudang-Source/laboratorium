@@ -1,0 +1,206 @@
+<style>
+@charset "utf-8";
+body{
+    min-height:2000px;
+    padding-top: 70px;
+	-webkit-animation: color 5s ease-in  0s infinite alternate running;
+	-moz-animation: color 5s linear  0s infinite alternate running;
+	animation: color 5s linear  0s infinite alternate running;
+    
+}
+
+/*mengatur text&tulisan*/
+.img{
+	width: 180px;
+	height:170px;
+	border-radius: 200px;
+}
+.pertama {
+    color: midnightblue;
+    font-family:"Bookman Old Style";
+    text-align: center;
+    font-size: 18px;
+    margin-left: 80px;
+    margin-right: 80px;
+   }
+.pertamaa {
+    color: midnightblue;
+    font-family:"Bookman Old Style";
+    text-align: center;
+    font-size: 18px;
+   }
+
+.pertamaaa {
+    color: teal;
+   }
+
+.p.jarak {
+    line-height: 30px;
+    font-family: "georgia";
+    font-size: 20px;
+}
+
+jumbotron{
+	font-family: 'Baskerville Old Face';
+	font-size: 50px;
+	font-style: 'bold';
+}
+.n1{
+	color: aliceblue;
+}
+.n2{
+	color: black;
+}
+h2 {
+     font-family:'Bookman Old Style';
+     font-size: 30px;
+     color:black;
+	 text-align: center;
+      }
+h3 {
+      font-size: 18px;
+      color:black;
+      margin-bottom: 5px;
+ 	  font-family: 'Baskerville Old Face' !important;   
+}
+h4 {
+      font-size: 20px;
+      color:black;
+      line-height: 1.375em; 
+      font-weight: 400;
+      margin-bottom: 30px;     
+    }
+
+/*NavbarMenu*/
+ .navbar {
+	 margin-left: 100px;
+	 margin-right: 100px;
+	 margin-bottom: 0;
+	 background-color:aliceblue;
+	 z-index: 9999;
+	 border: 20px;
+	 font-size: 18px !important;
+	 line-height: 2 !important;
+	 border-radius: 0;
+	 font-family: "Baskerville Old Face" !important;
+	 border-radius: 50px;
+	 height: 50px;
+	 padding-left: 1.9em;
+	 padding-right: 1.9em;
+ 		
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      background-color: lightskyblue !important;
+      height: 50px;
+	  border-radius: 30px;
+	  ;
+  }
+  .navbar-default .navbar-toggle {
+      color: black!important;
+  }
+
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: darkblue;
+}
+
+.carousel-indicators li {
+    border-color: darkblue;
+}
+
+.carousel-indicators li.active {
+    background-color:darkblue;
+}
+
+.item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+}
+
+/*Mengatur Background*/
+.container-fluid{
+      width:auto;
+      height: 720px;
+      text-align: center;
+	 font-family: "Bookman Old Style";
+	padding: 50px;
+ 	
+  }
+
+
+.bg1
+{
+    background-attachment: fixed; 
+	background-image:url(bg1.png);
+	background-size: auto 790px;
+    background-color:rgba(255,255,255,0.8);
+    background-position: 50% 0%;
+    background-repeat: no-repeat; 
+	padding: 180px 50px; 
+	font-family:"Bookman Old Style";
+}
+.bg2
+{
+    background-attachment: fixed; 
+    background-color: beige;
+	background-size: auto 790px;
+    background-color:rgba(255,255,255,0.8);
+    background-position: 50% 0%;
+    background-repeat: no-repeat; 
+	padding: 60px 50px; 
+	font-family:"Bookman Old Style";
+}
+.bg3
+{
+    background-attachment: fixed; 
+    background-color: beige;
+	background-size: auto 790px;
+	background-image: url(bg1.png);
+    background-color:rgba(255,255,255,0.8);
+    background-position: 50% 0%;
+    background-repeat: no-repeat; 
+	padding: 50px 50px; 
+	font-family:"Bookman Old Style";
+}
+
+footer.copyright {
+    padding: 10px 20px;
+    font-size: 12px;
+}
+
+body{
+	background-color: #f1c40f;
+	-webkit-animation: color 5s ease-in  0s infinite alternate running;
+	-moz-animation: color 5s linear  0s infinite alternate running;
+	animation: color 5s linear  0s infinite alternate running;
+}
+
+/* Animasi + Prefix untuk browser */
+@-webkit-keyframes color {
+    0% { background-color: #f1c40f; }
+    32% { background-color: #e74c3c; }
+    55% { background-color: #9b59b6; }
+    76% { background-color: #16a085; }
+    100% { background-color: #2ecc71; }
+}
+@-moz-keyframes color {
+     0% { background-color: #f1c40f; }
+    32% { background-color: #e74c3c; }
+    55% { background-color: #9b59b6; }
+    76% { background-color: #16a085; }
+    100% { background-color: #2ecc71; }
+}
+@keyframes color {
+  0% { background-color: #f1c40f; }
+    32% { background-color: #e74c3c; }
+    55% { background-color: #9b59b6; }
+    76% { background-color: #16a085; }
+    100% { background-color: #2ecc71; }
+}
+
+
+
+  </style>
